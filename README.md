@@ -38,3 +38,4 @@ class IncreasingCounter {
 ```
 - string.matchAll
 - 1_000 is equal to 1000, 1_000_000 = 1000000
+- BigInt to resolved large integers calculation
