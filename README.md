@@ -39,3 +39,29 @@ class IncreasingCounter {
 - string.matchAll
 - 1_000 is equal to 1000, 1_000_000 = 1000000
 - BigInt to resolved large integers calculation
+- array.flat()
+```js
+// Flatten one level:
+const array = [1, [2, [3]]]
+array.flat()
+// -> [1, 2, [3]]
+
+// flatten recursively until the array contains no more nested arrays:
+array.flat(Infinity)
+// -> [1, 2, 3]
+```
+- array.flatMap()
+- object.fromEntries()
+```js
+// convert object into map
+const map = new Map(Object.entries(object))
+
+// convert map into object
+const object = Object.fromEntries(map)
+```
+- `globalThis` value
+- new `Intl`
+- top level `await`
+- `Promise.allSettled` - All APIs called are finish (no matter success or fail)
+- `Promise.any` - Any of the promise is fulfilled, catch when all of the promises are rejected
+- WeakMap and WeakSet, WeakRef
