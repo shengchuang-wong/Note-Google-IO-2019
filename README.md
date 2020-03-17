@@ -65,3 +65,7 @@ const object = Object.fromEntries(map)
 - `Promise.allSettled` - All APIs called are finish (no matter success or fail)
 - `Promise.any` - Any of the promise is fulfilled, catch when all of the promises are rejected
 - WeakMap and WeakSet, WeakRef
+
+## Project bundle improvement
+- webpack-bundle-analyzer <<< check for big dependencies and reasonable dependencies in the bundle
+- source-map-explorer <<< show detailed of minified code, example duplicate code in the bundle
