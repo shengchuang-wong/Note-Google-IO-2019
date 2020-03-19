@@ -80,3 +80,10 @@ const object = Object.fromEntries(map)
 ## Going Big: PWAs Come to Desktop and Chrome OS
 - More native-app-likes feature are coming 
 
+## Rendering on the Web: Performance Implications of Application Architecture (Server side rendering)
+- Streaming html to client to reduce first byte time (used for chunk that is at least 16kb)
+![image](https://user-images.githubusercontent.com/24192488/77086485-cf7ed800-6a3c-11ea-878f-0d2dd2b2f0ed.png)
+- Partial and Progressive hydration
+- Truth about SEO
+  - Client-side rendering will __negatively__ affect SEO for crawlers that do not support Javascript
+   - There are ways to improve the discoverability of client-side rendered site without __full__ SSR
