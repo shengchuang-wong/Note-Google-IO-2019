@@ -69,3 +69,14 @@ const object = Object.fromEntries(map)
 ## Project bundle improvement
 - webpack-bundle-analyzer <<< check for big dependencies and reasonable dependencies in the bundle
 - source-map-explorer <<< show detailed of minified code, example duplicate code in the bundle
+
+## Securing Web Apps with Modern Platform Features
+- Nonce-based CSP (Prevent Script XSS)
+- Trusted Types (Prevent DOM XSS)
+- Fetch Metadata request headers
+- Cross-Origin Opener Policy
+![image](https://user-images.githubusercontent.com/24192488/77071964-e404a580-6a27-11ea-9cef-d3784bf6e341.png)
+
+## Going Big: PWAs Come to Desktop and Chrome OS
+- More native-app-likes feature are coming 
+
