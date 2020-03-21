@@ -103,3 +103,7 @@ const object = Object.fromEntries(map)
 - Badge for installed app
 - Wake lock API
 - File System
+- Serial API
+- WebHID
+- Contacts Picker
+- Font Access API
