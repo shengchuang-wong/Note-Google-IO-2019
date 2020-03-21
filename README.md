@@ -124,3 +124,6 @@ const object = Object.fromEntries(map)
   - three.js
 - React Three Fiber 2.0
 - WebGPU
+
+## Faster Web Navigation with Predictive Prefetching
+- Guess.js
