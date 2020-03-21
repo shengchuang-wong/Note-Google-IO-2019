@@ -87,3 +87,19 @@ const object = Object.fromEntries(map)
 - Truth about SEO
   - Client-side rendering will __negatively__ affect SEO for crawlers that do not support Javascript
    - There are ways to improve the discoverability of client-side rendered site without __full__ SSR
+
+## Protecting Users from Deception
+- FIDO
+- FIDO2
+- Implement WebAuthn Create and Get methods
+
+## Unlocking New Capabilities for the Web
+- Web Share API
+- Intersection Observer API
+- Web Bluetooth API
+- Web Share Target
+- Media Session API
+- Shapde Detection API
+- Badge for installed app
+- Wake lock API
+- File System
