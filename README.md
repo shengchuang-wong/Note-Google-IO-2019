@@ -107,3 +107,20 @@ const object = Object.fromEntries(map)
 - WebHID
 - Contacts Picker
 - Font Access API
+
+## Taking Chrome Full Screen with Trusted Web Activities
+![image](https://user-images.githubusercontent.com/24192488/77224116-5f3b9800-6b9d-11ea-8917-fa29d749b5c1.png)
+
+## Modern Web Testing and Automation with Puppeteer
+- Browser context - faster speed of testing
+
+## Next-Generation 3D Graphics on the Web
+- Examples of library
+  - A-Frame
+  - babylon.js
+  - CLNYGL
+  - PixiJS
+  - PLAYCANVAS
+  - three.js
+- React Three Fiber 2.0
+- WebGPU
